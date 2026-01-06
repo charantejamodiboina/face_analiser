@@ -28,12 +28,12 @@ const FaceAnalyser = () => {
 
     <div className="flex flex-col lg:flex-row gap-10 w-full">
       {/* Left panel */}
-      <div className="w-full lg:w-1/4 bg-gray-200 flex justify-center items-center">
+      <div className="w-full lg:w-2/5 bg-gray-200 flex justify-center items-center">
         <SmartSelfie />
       </div>
 
       {/* Right panel */}
-      <div className="w-full lg:w-3/4 bg-white flex flex-col justify-center items-center p-6 lg:p-10">
+      <div className="w-full lg:w-3/5 bg-white flex flex-col justify-center items-center p-6 lg:p-10">
         <p className="mb-5 lg:m-10 text-xl lg:text-2xl font-bold text-gray-600">
           Live Diagnostic Results
         </p>

@@ -106,6 +106,7 @@ const SmartSelfie = () => {
           screenshotFormat="image/jpeg"
           videoConstraints={{ facingMode: "user" }}
           style={styles.webcam}
+          mirrored={false}
         />
         
         {/* The Circular Overlay */}
